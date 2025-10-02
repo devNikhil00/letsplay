@@ -1,0 +1,110 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Coverage
+coverage
+*.lcov
+
+# Build output
+dist
+build
+out
+.tmp
+.temp
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Package manager stores
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/patches/
+
+# TypeScript
+*.tsbuildinfo
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Local database / cache
+data/
+*.sqlite
+*.sqlite-journal
+
+# Logs & misc
+.nyc_output
+.cache
+.eslintcache
+.stylelintcache
+
+# Debug
+node_modules/.cache/
+.vscode-test/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# Git merge backups
+*.orig
+
+# Archives
+*.tgz
+
+# Binaries
+*.node
+
+# Prisma
+prisma/*.db
+prisma/migrations/**/snapshot.db
+
+# Next/Nuxt (if present in monorepo)
+.next
+.nuxt
+
+# Svelte / Vite
+.svelte-kit
+
+# Remix
+.build
+
+# Serverless / Deploy
+.serverless
+.vercel
+.netlify
+
+# Temporary
+*.tmp
+*.swp
+*.swo
+
+# Testing
+.playwright
+test-results/
